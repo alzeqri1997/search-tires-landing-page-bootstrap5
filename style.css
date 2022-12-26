@@ -1,0 +1,55 @@
+:root{
+  --primary-color: #FF690F;
+}
+
+
+.bg-main{
+  background-color: var(--primary-color) ;
+}
+
+.text-main{
+  color: var(--primary-color);
+}
+
+.bg-car{
+  background: url(./assets/bg-section.png) no-repeat;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.underline{
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.underline::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--primary-color);
+}
+
+.p-max-width{
+  max-width: 830px;
+}
+
+.border-main{
+  border-color: var(--primary-color);
+}
+
+.wheel1-position{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-dark-gray{
+  background-color: #333333 ;
+}
