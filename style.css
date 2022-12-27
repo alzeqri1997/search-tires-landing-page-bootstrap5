@@ -49,7 +49,25 @@
   top: 50%;
   transform: translateY(-50%);
 }
+.wheel2-position{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .bg-dark-gray{
   background-color: #333333 ;
+}
+
+.fit-content{
+  width: fit-content;
+}
+
+
+/* Bootstrap Classes */
+
+.navbar-light .navbar-toggler{
+  border: unset;
 }
