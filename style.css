@@ -71,3 +71,14 @@
 .navbar-light .navbar-toggler{
   border: unset;
 }
+
+
+@media ( max-width: 468px ){
+  .navbar-brand{
+   width: 70%;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+  }
+}
